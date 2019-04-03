@@ -1,4 +1,4 @@
-#!/bin/python3
+# problem url: https://www.hackerrank.com/challenges/30-arrays/problem
 
 import math
 import os
