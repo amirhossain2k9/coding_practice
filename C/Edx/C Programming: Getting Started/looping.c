@@ -1,6 +1,9 @@
 #include <stdio.h>
 
 int main(){
+    /* This is a sample for loop program in C.
+    This is a multi line commenting sample.
+    */
 
     int i = 0;
     for(i=0; i<5; i++){
@@ -9,6 +12,6 @@ int main(){
     printf("\n");
     for(i=0; i<3; i++)
         printf("Testing single statement execution on for loop, without braces\n");
-        printf("out of the for loop");
+        printf("out of the for loop");  // this line will be the outer scope of for loop block
     return 0;
 }
