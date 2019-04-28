@@ -1,3 +1,11 @@
+# to ignore extensionless file i.e. binary file
+*
+!/**/
+!*.*
+
 env
 .idea
 *.cbp
+*.o
+bin
+obj
