@@ -12,12 +12,23 @@ type function_name (type1 arg1, type2 arg2,....){
 }
 */
 
-
+int product(int a, int b){
+    return a*b;
+}
 
 int main(){
 
-    my_function();
-    my_function();
+    int a, b, result;
+
+    printf("Enter two numbers to multiply:\n");
+    printf("\nnumber 1: ");
+    scanf("%d", &a);
+    printf("\nnumber 2: ");
+    scanf("%d", &b);
+
+
+    result = product(a,b);
+    printf("\n product of %d and %d is %d", a,b,result);
 }
 
 
