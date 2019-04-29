@@ -13,5 +13,12 @@ int main(){
     for(i=0; i<3; i++)
         printf("Testing single statement execution on for loop, without braces\n");
         printf("out of the for loop");  // this line will be the outer scope of for loop block
+
+    // while loop
+    while(i<4){
+        printf("\nInside the while loop");
+        i++;    // i = i + 1
+    }
+    printf("\nOutside the while loop\n");
     return 0;
 }
