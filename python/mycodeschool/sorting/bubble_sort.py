@@ -21,3 +21,6 @@ if __name__ == "__main__":
     data = [76, 0, 1, 4, 95, -3, 34, 22, 8, 145, -5, 5]
 
     print(bubble_sort(data))
+
+    data = [4, 34, 67, 78, 89, 722]
+    print(bubble_sort(data))
