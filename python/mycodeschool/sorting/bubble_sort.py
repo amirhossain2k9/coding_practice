@@ -3,9 +3,17 @@ def bubble_sort(A):
     n = len(A)
 
     for i in range(n-1):
+
+        # flagged to check if the list is already sorted in asc order
+        swapped = False
+
         for j in range(n-1-i):
             if A[j] > A[j+1]:
+                swapped = True
                 A[j], A[j+1] = A[j+1], A[j]
+
+        if not swapped:
+            break
     return A
 
 
