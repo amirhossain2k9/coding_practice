@@ -21,6 +21,7 @@ function selection_sort(A, n){
 
 """
 
+
 def selection_sort(A):
     n = len(A)
 
