@@ -9,3 +9,5 @@ env
 *.o
 bin
 obj
+Pipfile
+Pipfile.lock
